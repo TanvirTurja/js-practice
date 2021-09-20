@@ -46,3 +46,15 @@ console.log(result , fullName);
 
 let index = email.indexOf('@');
 console.log(index);
+
+//common string methods
+let emails = 'mario@gmail.com.uk';
+
+//let results = email.lastIndexOf('g');
+//let results = email.slice(0 , 8);
+
+//let results = emails.substr(4,9);
+let results = emails.replace('m','w');
+
+
+console.log(results);
